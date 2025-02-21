@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="about-section center-row">
+    <div class="about-image-container center-row">
+        <img src="{% static './img/my-photo.png' %}" alt="my amazing picture">
+    </div>
+
+    <div class="about-description-container center-column">
+        <h1>This is my role as developer</h1>
+        <h2>Samuel Dominguez</h2>
+
+        <p>Hi! My name is Samuel Dominguez Lopez, I'm 19 years old and I was born in the United States. I am a software developer which is currently studying at Cesun University and taking an intensive Fullstack course virtually from the school SDGKU. My goal is to one day become a great software developer capable of solving and creating anything I'm asked for, I also want to create my own app based on AI that would generate me a lot of money and help lots of people that needs it. I want to expand my horizons and learn as much as I can from other programming languages to dominate as much as I can. Something that characterizes me is that when I propose myself a goal I never stop until I get it. Through all my academic career I have receive numerous diplomas and my 2nd place at a state math contest which I am really proud of.</p>
+        <p>I want to work for big companies that allow me to work remotely, which will help me to travel around the world without the preocupation of having to attend to a specific place to work at, maybe just ocassionally. The technlogies I want to focus on is AI because I know the world is getting revolutionized by it, so learning how to use it and implement it in future projects would make it be part of the new emerging technologies that would be used by lots of users around the world. Nowadays, I am trying to learn as much as I can from python, django, html and css to try to finish my actual tasts to later on combine all my knowledge to develop a bigger project.</p>
+        <h2>Soft skills</h2>
+        <p>As a software developer, it is easy to collaborate with teams to develop different kind of software. My strong problem-solving skills allow me to tackle challenges efficiently, and I adapt quickly to new technologies and frameworks. I manage my time effectively to meet deadlines while maintaining high-quality work. Critical thinking helps me debug and optimize code for a better performance.</p>
+    </div>
+</section>
+
+<section class="skills-section center-column">
+    <h2>My Skills</h2>
+
+    <div class="skills-list">
+        <label class="text-label">Python</label>
+        <label class="text-label">React</label>
+        <label class="text-label">Java</label>
+        <label class="text-label">Django</label>
+        <label class="text-label">Html</label>
+        <label class="text-label">Css</label>
+        <label class="text-label">Javascript</label>
+        <label class="text-label">Fullstack</label>
+        <label class="text-label">Teamwork</label>
+        <label class="text-label">Responsable</label>
+    </div>
+</section>
+{% endblock content %}
