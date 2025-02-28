@@ -2,7 +2,12 @@
 {% load static %}
 
 {% block content %}
-
+<section class="project-section center-column">
+{% if user.is_authenticated %}
+<div class="add-project-container">
+    <a class="btn" href="{% url 'project_new' %}">Add New Project</a>
+</div>
+{% endif %}
 <h2 class="center-column">Projects</h2>
 
 <div class="project-list">
@@ -24,4 +29,5 @@
     </div>
     {% endfor %}
 </div>
+</section>
 {% endblock content %}

@@ -25,7 +25,7 @@
 
 html{
     background-color: var(--background-color);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /*General Styles */
@@ -55,7 +55,7 @@ h2{
 }
 
 p{
-    color: var(--neutral-color);
+    color: white;
     font-size: 1.1rem;
 }
 
@@ -67,4 +67,18 @@ p{
     font-weight: 600;
     padding: 0.8rem 1.5rem;
     cursor: initial;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 0.5rem 0.5rem;
+    border-radius: 2%;
+    font-family: var(--lobster-font);
+    font-size: 1.5rem;
+    letter-spacing: 0.08rem;
+}
+
+.btn:hover{
+    background-color: var(--surface-color);
 }
